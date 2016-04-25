@@ -1,0 +1,23 @@
+{
+  "eqeqeq":true,  // 强制使用====
+  "curly":true,  //强制if else 添加{}
+  "lint_on_edit": true,
+  "lint_on_load": true,
+  "lint_on_save": true,
+  "indent":true,  //代码缩进
+  "latedef":"nofunc", //禁止定义之前使用变量，忽略 function 函数声明
+  "newcap":true,  // 构造器首字母大写
+  "quotmark":true, //禁止单引号和双引号混用
+  "undef":true,   变量未定义
+  "unused":true,  //变量未使用
+  "strict":true,  //严格模式
+  "maxdepth":3,    //最大嵌套深度
+  "maxlen":400,   //最大代码行数
+  "lastsemic":true,  // 检查一行代码最后声明后面的分号是否遗漏
+  "laxcomma":true,  // 检查不安全的折行，忽略逗号在最前面的编程风格
+  "notypeof":true,  //检查无效的 typeof 操作符值
+  "boss":true, // 查找类似与if(a = 0)这样的代码
+  "sub":true, // 对于属性使用aaa.bbb而不是aaa['bbb']
+  "noarg":true,   // 禁用arguments.caller和arguments.callee
+  "multistr":true
+}

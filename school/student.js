@@ -1,5 +1,5 @@
 function add(student) {
-	console.log("add student: " + student)
+	console.log("add student: " + student);
 }
 
 function sub() {
